@@ -1,0 +1,29 @@
+{
+    "name": "outstack/twig-composer-loader",
+    "description": "Automatic namespaced templates from composer dependencies",
+    "type": "library",
+    "require": {
+        "twig/twig": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Outstack\\TwigLoader\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Outstack\\TwigLoader\\Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Quaile",
+            "email": "adamquaile@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/phpunit-bridge": "^5.2",
+        "vimeo/psalm": "^4.3"
+    }
+}
